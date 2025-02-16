@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">My Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>About Me</h2>
+                <figure>
+                    <img id="profile_pic" src="images/profile_pic.jpg" alt="This is my picture">
+                    <figcaption>Hello! This is how I look like.</figcaption>
+                </figure>
+                <p>My name is TIMOTHY JHER G. EUSEBIO. I am a 4th year computer engineering student from Technological Institute of the Philippines (TIP) - Manila. I have experience and skills in programming, researching, networking and cybersecurity through my education, although I have room for improvements. My hobbies are playing video games and music. I'm currently taking my On-the-Job Training (OJT) in Armada Logics to further improve my programming skills and to prepare for taking part in the tech industry after graduation. Nice to meet you!</p>
+            </section>
+
+            <section>
+                <h2>My Projects</h2>
+                <table>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year Completed</th>
+                    </tr>
+                    <tr>
+                        <td>Currency Converter</td>
+                        <td>A python program that converts a currency to another currency for my 2nd year college Object Oriented Programming course.</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>Grab A Cut</td>
+                        <td>A mobile-compliant online booking system for barbers and their customer for my 3rd year college Software Design course.</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>EelSafe</td>
+                        <td>A machine learning based transport container for glass/baby eels for my 4th year college Project Design course.</td>
+                        <td>Ongoing</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>Contact Me</h2>
+                <form>
+                    <section>
+                        <h4>Your contact details</h4>
+                        <label for="full_name">Full Name:</label>
+                        <input type="text" id="full_name" name="full_name">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email">
+                    </section>
+
+                    <section>
+                        <h4>How did you hear about this portfolio?</h4>
+                        <input type="radio" id="friend" name="portfolio_information_source" value="friend">
+                        <label for="friend">Friend</label>
+                        <input type="radio" id="social_media" name="portfolio_information_source" value="social_media">
+                        <label for="social_media">Social Media</label>
+                        <input type="radio" id="search_engine" name="portfolio_information_source" value="search_engine">
+                        <label for="search_engine">Search Engine</label>
+                        <input type="radio" id="other" name="portfolio_information_source" value="other">
+                        <label for="other">Other</label>
+                    </section>
+
+                    <section>
+                        <h4>Skills/Interests</h4>
+                        <input type="checkbox" id="programming" name="chosen_skills_interests" value="programming">
+                        <label for="programming">Programming</label>
+                        <input type="checkbox" id="researching" name="chosen_skills_interests" value="researching">
+                        <label for="researching">Researching</label>
+                        <input type="checkbox" id="networking" name="chosen_skills_interests" value="networking">
+                        <label for="networking">Networking</label>
+                        <input type="checkbox" id="cybersecurity" name="chosen_skills_interests" value="cybersecurity">
+                        <label for="cybersecurity">Cybersecurity</label>
+                        <input type="checkbox" id="music" name="chosen_skills_interests" value="music">
+                        <label for="music">Music</label>
+                        <input type="checkbox" id="playing_video_games" name="chosen_skills_interests" value="playing_video_games">
+                        <label for="playing_video_games">Playing Video Games</label>
+                    </section>
+
+                    <section>
+                        <h4>Comments/Message</h4>
+                        <label for="message">Type your comments/message here:</label>
+                        <textarea id="message" name="message"></textarea>
+                    </section>
+
+                    <input type="submit" id="submit" value="Submit">
+                    <label for="submit">(Click this button once you are done typing every details)</label>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>© Timothy Jher G. Eusebio 2025 | All rights reserved</p>
+        </footer>
+    </body>
+</html>
