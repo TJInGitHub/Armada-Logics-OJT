@@ -1,0 +1,95 @@
+body{
+    background-color: lightgray;
+    font-family: Arial;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+header, .about_me, .my_projects, .contact_me{
+    margin: 25px;
+}
+
+header{
+    background-color: whitesmoke;
+    padding: 10px 50px 50px 50px;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+header nav{
+    text-align: center; 
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header a{
+    color: green;
+}
+
+header a:hover{
+    background-color: green;
+    color: white;
+}
+
+.about_me {
+    border: 10px;
+    border-style: dashed;
+    padding: 50px;
+}
+
+.about_me figure{
+    text-align: center;
+}
+
+.my_projects table, th, td{
+    border: 2px;
+    border-style: solid;
+    padding: 35px;
+    text-align: justify;
+}
+
+.contact_me form{
+    border: 5px;
+    border-style: solid;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.contact_me form h4{
+    margin-top: 45px;
+}
+
+.contact_me input{
+    margin-left: 50px;
+}
+
+.contact_me label{
+    padding-left: 15px;
+}
+
+#full_name, #email{
+    margin-left: 10px;
+}
+
+#message{
+    width: 750px;
+}
+
+#submit{
+    margin: 30px 40px 10px 10px;
+    color: white;
+    background-color: green;
+    padding: 5px 12px;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    border-top: 2px;
+    border-top-style: solid;
+}
