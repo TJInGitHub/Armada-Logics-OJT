@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 25px;
+    padding: 0;
+  }
+  
+  header {
+    background-color: dodgerblue;
+  }
+  
+  header, .container {
+    padding: 20px;
+  }
+
+  .container, footer{
+    border: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+  }
+
+  .container, .left-panel, .right-panel, .top-bar, .main-content {
+    display: flex;
+  }
+
+  .container, .left-panel, .right-panel {
+    gap: 20px;
+  }
+  
+  .left-panel, .right-panel {
+    flex-direction: column; 
+  }
+
+  .left-panel {
+    width: 390px;
+    padding: 10px;
+    background-color: lightgrey;
+  }
+  
+  .top-bar, .main-content {
+    gap: 10px;
+  }
+  
+  .box {
+    background-color: lightcoral;
+    padding: 30px;
+    border-radius: 5px;
+  }
+
+  footer {
+    background-color: orangered;
+    padding: 15px
+  }
