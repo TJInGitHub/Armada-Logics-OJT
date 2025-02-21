@@ -1,0 +1,140 @@
+*, ul.version {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #212429;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+body, ul.version li#current_version {
+	color: #abb1b7;
+}
+
+header {
+    background-color: #6e2cf2;
+}
+
+header, input#search, a#read_install_docs {
+	font-size: 12px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+}
+
+ul {
+    margin-left: 4%;
+    align-items: center;
+}
+
+ul li{
+    vertical-align: middle;
+}
+
+ul li, p#npm_bootstrap{
+    margin: 5px;
+}
+
+ul li, p#npm_bootstrap, a#read_docs, p#tag {
+	display: inline-block;
+}
+
+ul.nav_links li a img.bootstrap_logo_nav {
+    width: 35px;
+    height: 30px;
+}
+
+input#search {
+    width: 15%;
+    margin-left: 16%;
+    padding: 3px;
+    border: 1px solid #abb1b7;
+    background-color: #6227db;
+}
+
+input#search, h1, a, p#npm_bootstrap, a#read_docs, h2 {
+    color: #dee2e6;
+}
+
+input#search, p#npm_bootstrap, a#read_docs, p#tag {
+	border-radius: 5px;
+}
+
+section {
+    margin: 30px;
+}
+
+img.bootstrap_logo {
+    width: 10%;
+}
+
+h1, p {
+    padding: 0% 29% 0% 29%;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p#npm_bootstrap {
+    background-color: #303338;
+    border: 1px solid #394147;
+    width: 12%;
+    text-align: left;
+}
+
+p#npm_bootstrap, a#read_docs {
+    padding: 10px;
+}
+
+p#npm_bootstrap, a#read_docs, ul.version li {
+    font-size: 10px;
+}
+
+a#read_docs {
+    background-color: #712cf9;
+    width: 7%;
+    font-weight: bold;
+}
+
+ul.version li {
+    margin: 5px 0px 5px 0px;
+}
+
+ul.version a, a#read_install_docs {
+    text-decoration: underline;
+}
+
+ul.version li, ul.version a {
+    color: #677583;
+}
+
+p#tag {
+    background-color: #29253e;
+    font-size: 20px;
+    padding: 8px 6px 8px 6px;
+    color: #772afe;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+a#read_install_docs {
+    color: #71a8fb;
+}
