@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+body, nav select#language, nav input#sign_in, form input.email, form input.get_started, ul#movies li input#next {
+	color: white;
+}
+
+body, nav select#language {
+	text-align: center;
+}
+
+p {
+    color: #babdc8;
+}
+
+p, form label {
+	font-size: 12px;
+}
+
+div.background {
+    background-image: url(images/NETFLIX_background.jpg);
+    background-size: 100% 100%;
+}
+
+header {
+    background-image: linear-gradient(to right, black, transparent);
+    opacity: 100%;
+}
+
+nav img#netflix_logo {
+    margin: 0% 60% 0% 6%;
+    width: 10%;
+    height: 10%;
+}
+
+header nav, ul {
+	align-items: center;
+}
+
+header nav, section.trending_now, section.more_reasons_to_join, ul {
+	display: flex;
+}
+
+nav select#language {
+    width: 8%;
+    padding: 3px;
+}
+
+nav select#language, nav input#sign_in, form input.email, form input.get_started {
+	border-radius: 2px;
+}
+
+nav select#language, form input.email {
+	border: 1px solid #595858;
+    background-color: #181718;
+    opacity: 90%;
+}
+
+nav input#sign_in {
+    margin-left: 8px;
+    width: 5%;
+    padding: 4px;
+}
+
+nav input#sign_in, form input.get_started, ul#movies li input#next {
+    border-style: none;
+}
+
+nav input#sign_in, form input.get_started {
+    background-color: #e50914;
+}
+
+section.membership {
+    padding: 10% 29% 20% 29%; 
+}
+
+section.membership h1{
+    font-size: 40px;
+}
+
+section.membership h4, form label {
+    padding: 5px;
+}
+
+form label {
+    display: block;
+}
+
+form input.email {
+    width: 275px;
+}
+
+form input.email, form input.get_started {
+    padding: 8px;
+}
+
+form input.get_started {
+    width: 120px;
+    font-size: 15px;
+}
+
+section.trending_now, section.more_reasons_to_join {
+    text-align: left;
+    padding: 0% 6% 0% 6%;
+    flex-direction: column;
+    margin: 1% 0% 5% 4%;
+}
+
+ul {
+    justify-content: left;
+    margin-top: 1%;
+    margin-left: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul#movies li img{
+    width: 90%;
+}
+
+ul#movies li img, ul#movies li input#next, ul#reasons li {
+    border-radius: 10px;
+}
+
+ul#movies li input#next{
+    background-color: #1a1a1a;
+    width: 20px;
+    height: 100px;
+}
+
+ul#reasons {
+    margin-left: 0px;
+}
+
+ul#reasons li {
+    background-color: #192247;
+    width: 215px;
+    height: 230px;
+    margin-right: 15px;
+    padding: 15px;
+    gap: 10px;
+}
+
+ul#reasons li h3, ul#reasons li p{
+    padding: 10px 38px 10px 0px;
+}
+
+input#sign_in:hover, input.get_started:hover {
+    background-color: maroon;
+}
+
+ul#movies li input#next:hover{
+    background-color: white;
+    color: #1a1a1a;
+}

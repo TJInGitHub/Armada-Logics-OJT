@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <nav>
+                <img src="images/Logonetflix.png" id="netflix_logo" alt="This is the logo of Netflix"> 
+                <select id="language">
+                    <option>English</option>
+                    <option>Filipino</option>
+                </select>
+                <input type="button" id="sign_in" value="Sign In">
+            </nav>
+
+            <section class="membership">
+                <h1>Unlimited movies, TV shows, and more</h1>
+                <h4>Starts at ₱149. Cancel Anytime.</h4>
+                <form>
+                    <label for="email">Ready to watch? Enter your email to create or restart your membership.</label>
+                    <input type="email" id="email" class="email" name="email" placeholder="Email address">
+                    <input type="submit" id="get_started" class="get_started" value="Get Started  >">
+                </form>
+            </section>
+        </header>
+    </div>
+    
+    <main>
+        <section class="trending_now">
+            <h3>Trending Now</h3>
+            <ul id="movies">
+                <li><img src="images/AD_VITAM.webp" alt="AD VITAM Movie Poster"></li>
+                <li><img src="images/THE_INTRUDER.webp" alt="THE Intruder Movie Poster"></li>
+                <li><img src="images/PETS_2.webp" alt="PETS 2 Movie Poster"></li>
+                <li><img src="images/MEG_2.webp" alt="MEG 2 Movie Poster"></li>
+                <li><img src="images/THE_FORGE.webp" alt="THE FORGE Movie Poster"></li>
+                <li><input type="button" id="next" value=">"></li>
+            </ul>
+        </section>
+
+        <section class="more_reasons_to_join">
+            <h3>More Reasons to Join</h3>
+            <ul id="reasons">
+                <li>
+                    <h3>Enjoy on your TV</h3>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </li>
+                <li>
+                    <h3>Download your shows to watch offline</h3>
+                    <p>Save your favorites easily and always have something to watch.</p>
+                </li>
+                <li>
+                    <h3>Watch everywhere</h3>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                </li>
+                <li>
+                    <h3>Create profiles for kids</h3>
+                    <p>Send kids on adventures with their favorite characters in a space made just for them — free with your membership.</p>
+                </li>
+            </ul>
+        </section>
+        <form>
+            <label for="email">Ready to watch? Enter your email to create or restart your membership.</label>
+            <input type="email" id="email2" class="email" name="email" placeholder="Email address">
+            <input type="submit" id="get_started2" class="get_started" value="Get Started  >">
+        </form>
+    </main>
+</body>
+</html>
