@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #000000;
+}
+
+.icon {
+    width: 30px;
+}
+
+header, aside {
+    position: fixed;
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 15px
+}
+
+nav form input, nav a {
+    margin-left: 20px
+}
+
+aside {
+    text-align: left;
+    top: 80px;
+    background-color: #121212;
+    border-radius: 10px;
+    width: 25%;
+    height: 100%;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+aside h3 {
+    width: 200px;
+}
+
+aside ul li {
+    display: inline-block;
+    background-color: #1F1F1F;
+    padding: 8px;
+}
+
+aside ul li p {
+    width: 300px;
+    padding: 5px 0px 5px 0px
+}
+
+input#language {
+    margin-top: 200px;
+}
+
+div#container {
+    background-color: #202020;
+    width: 70%;
+    margin-left: 29%;
+    border-radius: 10px;
+}
+
+main {
+    padding: 80px 20px 20px 20px;
+    text-align: left;
+}
+
+main ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+a {
+    color: #757575;
+    text-decoration: none;
+}
+
+img.profile_pic, img.cover_photo {
+    width: 125px;
+    height: 125px;
+}
+
+img.profile_pic {
+    border-radius: 100px;
+}
+
+p {
+    width: 120px;
+    color: white;
+}
+
+p.subtext {
+    color: #757575;
+}
+
+footer {
+    border-top: 1px #757575 solid;
+}
+
+footer p{
+    width: 180px;
+}

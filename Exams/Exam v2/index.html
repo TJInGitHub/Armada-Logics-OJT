@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <form>
+                <input type="image" src="icons/spotify_icon.svg" id="spotify" class="icon" alt="Spotify icon">
+                <input type="image" src="icons/home_icon.svg" id="home" class="icon" alt="Home icon">
+                <input type="search" placeholder="What do you want to play?" id="search">
+            </form>
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Download</a>
+            <p>|</p>
+            <a href="#">Install App</a>
+            <a href="#">Sign up</a>
+            <a href="#">Log in</a>
+        </nav>
+    </header>
+
+    <aside>
+        <h3>Your Library</h3>
+        <input type="image" src="icons/add_icon.svg" id="create_playlist_or_folder" class="icon" alt="Create playlist or folder icon">
+        <ul>
+            <li>
+                <h2>Create your first playlist</h2>
+                <p>It's easy, we'll help you</p>
+                <input type="button" id="create_playlist" value="Create playlist">
+            </li>
+            <li>
+                <h2>Let's find some podcasts to follow</h2>
+                <p>We'll keep you updated on new episodes</p>
+                <input type="button" id="browse_podcasts" value="Browse podcasts">
+            </li>
+        </ul>
+        <input type="button" id="language" value="English">
+    </aside>
+    
+    <div id="container">
+        <main>
+            <section>
+                <h1>Popular artists</h1>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/dionela.jpeg" alt="Dionela pic" class="profile_pic">
+                            <p>Dionela</p>
+                            <p class="subtext">Artist</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/arthur_nery.jpeg" alt="Arthur Nery pic" class="profile_pic">
+                            <p>Arthur Nery</p>
+                            <p class="subtext">Artist</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bruno_mars.jpeg" alt="Bruno Mars pic" class="profile_pic">
+                            <p>Bruno Mars</p>
+                            <p class="subtext">Artist</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/tj_monterde.jpeg" alt="TJ Monterde pic" class="profile_pic">
+                            <p>TJ Monterde</p>
+                            <p class="subtext">Artist</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/taylor_swift.jpeg" alt="Taylor Swift pic" class="profile_pic">
+                            <p>Taylor Swift</p>
+                            <p class="subtext">Artist</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/lady_gaga.jpeg" alt="Lady Gaga pic" class="profile_pic">
+                            <p>Lady Gaga</p>
+                            <p class="subtext">Artist</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h1>Popular albums and singles</h1>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/marilag.jpeg" alt="Marilag cover" class="cover_photo">
+                            <p>Marilag</p>
+                            <p class="subtext">Dionela</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/langit_mong_bughaw.jpeg" alt="Langit Mong Bughaw cover" class="cover_photo">
+                            <p>Langit Mong Bughaw</p>
+                            <p class="subtext">December Avenue</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/short_n_sweet.jpeg" alt="Short n' Sweet cover" class="cover_photo">
+                            <p>Short n' Sweet</p>
+                            <p class="subtext">Sabrina Carpenter</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/freudian.jpeg" alt="Freudian cover" class="cover_photo">
+                            <p>Freudian</p>
+                            <p class="subtext">Daniel Caesar</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/hit_me_hard_&_soft.jpeg" alt="HIT ME HARD AND SOFT cover" class="cover_photo">
+                            <p>HIT ME HARD AND SOFT</p>
+                            <p class="subtext">Billie Eilish</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/gnx.jpeg" alt="GNX cover" class="cover_photo">
+                            <p>GNX</p>
+                            <p class="subtext">Kendrick Lamar</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h1>Featured Charts</h1>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/top_songs_global.jpg" alt="Top Songs Global cover" class="cover_photo">
+                            <p class="subtext">Your weekly update of the most playe...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/top_songs_philippines.jpg" alt="Top Songs Philippines cover" class="cover_photo">
+                            <p class="subtext">Your weekly update of the most playe...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/top_50_global.jpg" alt="Top 50 Global cover" class="cover_photo">
+                            <p class="subtext">Your daily update of the most played...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/top_50_philippines.jpg" alt="Top 50 Philippines cover" class="cover_photo">
+                            <p class="subtext">Your daily update of the most played...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/top_50_viral_global.jpg" alt="Viral 50 Global cover" class="cover_photo">
+                            <p class="subtext">Your daily update of the most viral...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/top_50_viral_philippines.jpg" alt="Viral 50 Philippines cover" class="cover_photo">
+                            <p class="subtext">Your daily update of the most viral...</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <section id="social_media">
+            <a href="#"><img src="icons/instagram_icon.svg" alt="Instagram" class="icon"></a>
+            <a href="#"><img src="icons/twitter_icon.svg" alt="Twitter" class="icon"></a>
+            <a href="#"><img src="icons/facebook_icon.svg" alt="Facebook" class="icon"></a>
+        </section>
+
+        <footer>
+            <p>© 2025 Spotify AB</p>
+        </footer>
+    </div>
+</body>
+</html>

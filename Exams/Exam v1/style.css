@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header ul.top_bar {
+    display: flex;
+    align-items: center;
+    background-color: #002056;
+    padding: 11px 0px 11px 30px;
+}
+
+header ul.top_bar li a{
+    color: white;
+}
+
+header ul.top_bar li a img.smac_logo {
+    width: 190px;
+}
+
+header ul li, main ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+}
+
+ul.top_bar li input#search {
+    position: relative;
+    height: 50px;
+    width: 250px;
+}
+
+img#center_image {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px 0px 0px 20px;
+}
+
+main section ul.categories li img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+main section ul.exclusives li img {
+    width: 100px;
+}
+
+footer {
+    padding: 10px;
+    font-size: 12px;
+    background-color: #333232;
+    color: white;
+}
+
+h2 {
+    text-align: left;
+}
