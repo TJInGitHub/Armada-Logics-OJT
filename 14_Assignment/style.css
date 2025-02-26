@@ -1,17 +1,258 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 1px dashed red;
 }
 
 body {
-    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header nav ul li{
-    display: inline-block;
+body, header nav, input#log_in {
+	background-color: white;
 }
 
-header nav ul li a img {
+header nav, aside nav, aside nav a, main, div#advertising_api_container {
+	display: flex;
+}
+
+header nav, aside nav, div#advertising_api_container {
+	flex-direction: row;
+}
+
+header nav, aside nav a{ 
+	align-items: center;
+}
+
+header nav, aside nav {
+	position: fixed;
+}
+
+header nav, div#advertising_api_container section {
+	width: 100%;
+}
+
+header nav {
+    padding: 10px 70px 10px 50px;
+    top: 0;
+    border-top: 3px #E7700D solid;
+    border-bottom: 1px #D2D6DA solid;
+}
+
+header nav a {
+    color: #81888F;
+    margin-left: 20px;
+}
+
+header nav form input, section input {
+	border-radius: 5px;
+}
+
+header nav form input {
+    padding: 8px;
+    margin-right: 1px;
+}
+
+input#search {
+    margin: 0px 5px 0px 20px;
+    width: 575px;
+    padding: 8px 25px 8px 25px;
+    border: 1px #C4C8CD solid;
+}
+
+input#log_in {
+    border: 1px #1B75D0 solid;
+    color: #1B75D0;
+}
+
+input#sign_up, section input {
+	background-color: #1B75D0;
+}
+
+input#sign_up, section input, section#overflowai p, span#text_with_background {
+	color: white;
+}
+
+input#sign_up, section input {
+    border-style: none;
+}
+
+a img, section img {
     width: 150px;
+}
+
+aside nav, main {
+	flex-direction: column;
+}
+
+aside nav, div#advertising_api_container {
+	gap: 15px;
+}
+
+aside nav {
+    top: 58px;
+    width: 20%;
+    padding-top: 40px;
+}
+
+aside nav a, aside nav p {
+	padding: 0px 50px 0px 70px;
+}
+
+aside nav a {
+    gap: 5px;
+    width: 132px;
+    color: #3B4045;
+}
+
+aside nav a img {
+    width: 20px;
+}
+
+aside nav p, span#bold_text {
+	font-weight: bold;
+}
+
+aside nav p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+main {
+    width: 74%;
+    margin: 50px 0px 55px 20%;
+    gap: 20px;
+}
+
+section {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px #EAECED solid;
+}
+
+section p {
+    margin: 15px 0px 15px 0px;
+}
+
+section input {
+    padding: 8px 13px 8px 13px;
+    margin-right: 20px;
+}
+
+section input#sign_up2 {
+    padding: 11px;
+}
+
+section#description, section#stackoverflow_for_teams, section#overflowai, section#careers {
+    position: relative;
+    z-index: -1;
+}
+
+section#description a, section#stackoverflow_for_teams a, section#overflowai a, section#careers a{
+    position: static;
+}
+
+img.accompanying_image {
+    position: absolute;
+}
+
+section#description {
+    padding: 75px 50px 50px 50px;
+    background-color: #F9FAFA;
+}
+
+section#description p{
+    width: 463px;
+    color: #3B4C6A;
+}
+
+section#description img {
+    top: 104px;
+    right: 38px;
+    width: 385px;
+}
+
+section#stackoverflow_for_teams p {
+    width: 410px;
+}
+
+section#stackoverflow_for_teams img.accompanying_image, section#overflowai img.accompanying_image {
+	border-radius: 0px 0px 10px;
+}
+
+section#stackoverflow_for_teams img.accompanying_image, section#overflowai img.accompanying_image, section#careers img.accompanying_image {
+    right: 0;
+}
+
+section#stackoverflow_for_teams img.accompanying_image {
+    top: 25px;
+    width: 406px;
+}
+
+section#overflowai {
+    background-color: #3B4045;
+}
+
+section#overflowai img.accompanying_image {
+    top: 41px;
+    width: 380px;
+}
+
+section#overflowai p{
+    width: 510px;
+}
+
+section#stackoverflow_advertising {
+    padding-top: 0px; 
+}
+
+section#stackoverflow_advertising p{
+    margin: 0px 0px 31px;
+}
+
+section#overflowapi {
+    padding-top: 11px; 
+}
+
+section#overflowapi img{
+    width: 185px; 
+}
+
+section#careers p {
+    width: 370px;
+}
+
+section#careers img.accompanying_image {
+    bottom: 0;
+    width: 470px;
+}
+
+h1 {
+    font-size: 30px;
+    width: 400px;
+}
+
+h3, p {
+    font-size: 15px;
+}
+
+h3 {
+    margin: 15px 0px 5px 0px;
+    font-weight: lighter;
+    color: #776D69;
+}
+
+img {
+    width: 10px;
+}
+
+span#text_with_background {
+    background-image: url(images/background-image.png);
+    background-size: 100%;
+    padding: 2px 15px 0px 15px;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color:#207BD1;
 }
