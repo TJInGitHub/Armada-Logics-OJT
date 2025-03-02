@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, nav#sub_nav {
+	background-color: #0D1117;
+}
+
+body, header nav form a:hover, nav#sub_nav a, aside a.repository_links {
+	color: #7F8694;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav, header nav form, nav#sub_nav, aside a, aside ul, aside a.repository_links, aside a#trending_devs, section ul, footer nav {
+	display: flex;
+}
+
+header nav, aside ul, section ul {
+	flex-direction: row;
+}
+
+header nav, header nav form, aside a, section ul, footer nav {
+	align-items: center;
+}
+
+header nav {
+    background-color: #25292E;
+    padding: 20px 30px 20px 30px;
+}
+
+div.container, div#search_container {
+	position: relative;
+}
+
+header nav form input {  
+    background-color: transparent;
+    border-style: none;
+}
+
+header nav form input, header nav form a, aside ul li {
+	font-size: 13px;
+}
+
+header nav form input, header nav form a, nav#sub_nav a:hover, nav#sub_nav a#current_page, aside a#trending_devs {
+	color: white;
+}
+
+header nav form input, header nav form a {
+    padding: 10px 20px 10px 15px;
+}
+
+header nav form a, nav#sub_nav a, aside a, section a, footer nav a {
+	text-decoration: none;
+}
+
+div#search_container {
+    margin-left: 200px;
+}
+
+input#search, input#sign_up:hover {
+	border: 1px #7D8693 solid;
+}
+
+input#search, input#sign_up, aside, section, section#game_engines ul#content2 p#hashtag {
+	border-radius: 5px;
+}
+
+input#search {
+    width: 272px;
+    padding: 6px 30px 6px 30px;
+}
+
+input#search::placeholder, input#sign_in:hover, input#sign_up:hover {
+	color: #C3C9CA;
+}
+
+input#sign_up {
+    border: 1px white solid;
+}
+
+header nav form img, aside {
+	position: absolute;
+}
+
+header nav form img {
+    right: 0;
+    top: 10px;
+}
+
+img#search_icon {
+    left: 8px;
+    top: 6px;
+}
+
+img#slash_icon {
+    right: 4px;
+    top: 4px;
+}
+
+nav#sub_nav, footer nav {
+	justify-content: center;
+}
+
+nav#sub_nav, section#game_engines ul#content2 {
+	gap: 20px;
+}
+
+nav#sub_nav {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+
+nav#sub_nav a, aside a#trending_devs, section#top_games_2024 p#content, section#game_engines ul#content2 li p, section#game_engines ul#content2 p#hashtag, section#game_engines a#view_items{
+	font-size: 12px;
+}
+
+nav#sub_nav a {
+    padding: 20px 0px 20px;
+}
+
+nav#sub_nav a:hover {
+    border-bottom: 2px #7D8693 solid;
+}
+
+nav#sub_nav a#current_page {
+    border-bottom: 2px #438FEF solid;
+}
+
+aside, section {
+	border: 1px #2B3038 solid;
+}
+
+aside {
+    top: 150px;
+    right: 100px;
+    width: 230px;
+    z-index: -1;
+}
+
+aside ul, section ul {
+	list-style-type: none;
+}
+
+aside ul li, aside a.more_dev_links {
+	border-bottom: 1px #2B3038 solid;
+}
+
+aside ul li {
+    padding: 15px 2px 20px 12px;
+}
+
+aside ul li p {
+    padding: 5px 0px 8px;
+    width: 153px;
+}
+
+aside a.repository_links, aside a#trending_devs, section#top_games_2024 ul, section#game_engines ul {
+	gap: 5px;
+}
+
+aside a.repository_links, aside a.more_dev_links, section ul li p, footer nav {
+	font-size: 10px;
+}
+
+aside a#trending_devs {
+    background-color: #151B23;
+}
+
+aside a.more_dev_links {
+    padding: 15px;
+}
+
+img.profile_pic {
+    width: 50px;
+    border-radius: 100px;
+}
+
+main, section img {
+	width: 535px;
+}
+
+main {
+    margin-left: 365px;
+}
+
+section img {
+    height: 300px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+section ul li img {
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+section a, h1 {
+    font-size: 17px;
+}
+
+section a:hover, footer nav a:hover {
+	text-decoration: underline;
+}
+
+section#top_games_2024 {
+    margin-bottom: 20px;
+}
+
+section#top_games_2024 ul, section#game_engines ul {
+	padding: 10px 15px 15px 15px;
+}
+
+section#top_games_2024 a {
+    padding-left: 15px;
+}
+
+section#top_games_2024 p#content {
+    padding: 15px 15px 20px 15px;
+    width: 485px;
+}
+
+section#game_engines ul#content2 {
+    padding: 0px 20px 30px;
+    align-items: flex-start;
+}
+
+section#game_engines ul#content2 li#description {
+    padding-top: 10px;
+}
+
+section#game_engines ul#content2 li p {
+    padding: 10px 0px 10px;
+}
+
+section#game_engines ul#content2 p#hashtag {
+    padding: 45px;
+    background-color: #111D2F;
+}
+
+section#game_engines a#view_items {
+    font-weight: lighter;
+}
+
+footer nav {
+    margin: 100px 0px 50px;
+}
+
+footer nav p {
+    padding-right: 8px;
+}
+
+footer nav a {
+    color:  #7F8694;
+    margin: 0px 8px;
+}
+
+footer nav a:hover, a {
+    color: #438FEF;
+}
+
+h1 {
+    padding: 25px 0px 20px;
+}
