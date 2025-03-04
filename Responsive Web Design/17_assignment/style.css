@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.8em;
+}
+
+nav li p {
+    color: lightgray;
+}
+
+div#pin_container {
+    gap: 0.2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+input.btn_img {
+    padding: 0.82em;
+}
+
+input#btn {
+    padding: 0.72em;
+    border-style: none;
+}
+
+input#pin {
+    border-radius: 5px 0px 0px 5px;
+}
+
+input#dropdown {
+    border-radius: 0px 5px 5px 0px;
+}
+
+main {
+    flex-wrap: wrap;
+    margin: 20px 61px 100px 61px;
+
+    section {
+        flex-direction: column;
+        background-color: #F9F9F9;
+        border: 1px #454857 solid;
+        padding: 10px 15px 20px;
+        width: 250px;
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    }
+}
+
+header, input#btn {
+	color: white;
+}
+
+nav, nav ul, form, div#pin_container, main, section {
+	display: flex;
+}
+
+nav, nav ul, form, div#pin_container, main {
+	flex-direction: row;
+}
+
+nav, nav ul, form, section {
+    align-items: center;
+}
+
+nav, nav ul, form {
+    gap: 0.65em;
+}
+
+main, section {
+    gap: 1.1em;
+    justify-content: center;
+}
+
+section, input.btn_img, input#btn {
+    border-radius: 5px;
+}
+
+input.btn_img, input#btn {
+    background-color: #454857;
+}
+
+/* Phone screens */
+@media (max-width: 480px) {
+    img#logo {
+        width: 21px;
+    }
+    
+    h1, h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    input.btn_img {
+        width: 12px;
+    }
+
+    input#btn {
+        display: none;
+    }
+}
+  
+/* Tablet screens */
+@media (min-width: 481px) and (max-width: 1023px) {
+    img#logo {
+        width: 28px;
+    }
+
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    input.btn_img {
+        width: 14px;
+    }
+
+    input#btn {
+        font-size: 12px;
+    }
+}
+  
+/* Desktop screens */
+@media (min-width: 1024px) {
+
+    img#logo {
+        width: 35px;
+    }
+    
+    h2 {
+        width: 500px
+    }
+
+    nav ul {
+        margin-right: 10%;
+    }
+
+    input.btn_img {
+        width: 18px;
+    }
+
+    input#btn {
+        font-size: 16px;
+    }
+}
