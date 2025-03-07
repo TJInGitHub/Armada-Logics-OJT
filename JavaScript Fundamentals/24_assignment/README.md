@@ -1,7 +1,7 @@
 # Created by: **Timothy Jher G. Eusebio**
 ## T-Diagram, Expected Output, Explanation and Reflection for JS Challenge II
 
-This .md file will provide you my T-diagram, expected output and explanations for the given code in each given tasks in each given tasks. 
+This .md file will provide you my T-diagram, expected output and explanations for the given code in each given tasks, including my reflection regarding this assignment.
 
 ## Tasks
 ### Task 1: Inventory Tracker
