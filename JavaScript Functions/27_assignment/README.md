@@ -5,4 +5,4 @@
 2 hours
 
 ## Reflection
-Took me some time as I got confuse to how it works, requiring me to watch videos and search for similar examples online.
+Took me some time as I got quite confuse to how it callback works, requiring me to watch videos and search for similar examples online.
