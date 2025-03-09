@@ -44,9 +44,12 @@ Predicted Output:
 [ 40, 20, 30, 10 ]
 [ 10, 20, 30, 40 ]
 
-Real Output:
+Real Output: 
 [ 40, 20, 30, 10 ]
 [ 40, 20, 30, 10 ]
+ 
+(Changes made to the array in the function will be reflected even if the array is outside 
+the function)
 */
 
 
