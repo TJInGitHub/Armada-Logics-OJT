@@ -1,7 +1,7 @@
 import java.util.Scanner;    //for user input
 
 /* StudentGradeManager class template to create Student Grade Manager objects  
-with String studentName and int Grade in array*/
+with String studentName and int studentGrades in array*/
 public class StudentGradeManager {
     String studentName;
     int[] studentGrades;
@@ -85,10 +85,11 @@ public class StudentGradeManager {
 
         System.out.print("Does the student takes overload subject (Type 'Yes' or 'No'): ");                   
         String answer = scanner.nextLine();   // User input for string variable answer
-        String status = StudentGradeManager.studentStatus(answer);
+        String status = StudentGradeManager.studentStatus(answer); // string status variable to indicate if student is regular or overloading
        
         /* if-else statements to adjust number of grade inputs if student is overloading or not */
-        /* Allow 3 grade inputs if student status is "Regular" and create the StudentGradeManager object*/
+        /* Allow 3 grade inputs if student status is "Regular" and create the StudentGradeManager object
+        displaying student details, grade average and classification */
         if (status == "Regular") {
             System.out.print("Enter 3 grades: ");                   
             int grade1 = scanner.nextInt();  
@@ -101,7 +102,8 @@ public class StudentGradeManager {
             System.out.println("\nAverage: " + averageGrade);   
             System.out.println("Classification: " + classification);   
 
-        /* Allow 4 grade inputs if student status is "Overloading" and create the StudentGradeManager object */    
+        /* Allow 4 grade inputs if student status is "Overloading" and create the StudentGradeManager object, 
+        displaying student details, grade average and classification */    
         } else if (status == "Overloading") {
             System.out.print("Enter 4 grades: ");                   
             int grade1 = scanner.nextInt();   
@@ -115,7 +117,8 @@ public class StudentGradeManager {
             System.out.println("\nAverage: " + averageGrade);   
             System.out.println("Classification: " + classification);   
 
-        /* Print invalid output if student status is Invalid  */
+        /* Print invalid answer as
+         output if student status is Invalid  */
         } else if (status == "Invalid") {
             System.out.println("Invalid answer");
         }
