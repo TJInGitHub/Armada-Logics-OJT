@@ -1,5 +1,5 @@
 # Created by: **Timothy Jher G. Eusebio**
-## Quiz Answer, Time Taken and Reflection for Student Grades Analyzer
+## Quiz Answer, Time Taken and Reflection for Understanding Classes, Objects, and Methods in Java
 
 ## Quiz Answers
 
