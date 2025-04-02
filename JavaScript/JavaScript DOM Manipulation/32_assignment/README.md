@@ -1,0 +1,8 @@
+# Created by: **Timothy Jher G. Eusebio**
+## Time Taken and Reflection for Dynamic Profile Card Editor
+
+### Time Taken
+4 hours 
+
+## Reflection
+I need to add 3 more hours to the estimated time as I'm trying to get the hang of css styling again as there were things that I have forgotten, and because of the errors I've encountered when applying the JavaScript DOM manipulation to the activity. The main problem that I've encountered was making the DOM manipulation work to reflect the changes like updating the name and etc of the profile. This is because at first, it doesn't accept the changes, outputting errors instead. The reasons which I found out after researching and testing was that it doesn't accept the value of the inputs as I didn't declare the input type or button type (I've used the former) as I enclosed the inputs in form, refreshing the page when the buttons to execute the functions to update the name was pressed. And the other problem was forgetting to link the script.js file that contains the functions to the html file for it to be used. I've solved this problems and added some conditions for error handling in the functions. But despite that, I know I could improve this further although I already took more than enough time to do so. The possible improvents to this was that I'm unable to apply the shorthand techniques in the CSS styling completely and conditions for the function to change the background color. Overall, this activity allow me to have a better understanding in applying JavaScript DOM manipulation and remembering past lessons about CSS styling.

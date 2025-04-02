@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dynamic Profile Card Editor </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Profile Card Section to contain profile image, profile name and profile bio -->
+    <section>
+        <img src="" alt="Profile Image">
+        <h2>John Doe</h2>
+        <p>Lorem Ipsum</p>
+    </section>
+
+    <!-- Profile Card Editor form which is used for editing Profile card's profile image, profile name and
+    profile bio -->
+    <form>
+        <!-- Inputs for updating profile name -->
+        <label for="update_name">Update Name:</label>
+        <input type="text" id="update_name" name="update_name" placeholder="Name">
+        <input type="button" id="update_name_button" class="button" value="Update Name" onclick="updateName()">
+
+        <!-- Inputs for updating profile bio -->
+        <label for="update_bio">Update Bio:</label>
+        <input type="text" id="update_bio" name="update_bio" placeholder="Bio">
+        <input type="button" id="update_bio_button" class="button" value="Update Bio" onclick="updateBio()">
+
+        <!-- Inputs for updating profile image -->
+        <label for="update_image">Update Image URL:</label>
+        <input type="url" id="update_image" name="update_image" value="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/08/Lelouch-Zero.jpg" placeholder="Image URL">
+        <input type="button" id="update_image_button" class="button" value="Update Image" onclick="updateImage()">
+
+        <!-- Inputs for changing background color of profile card -->
+        <label for="update_bgcolor">Change Background Color:</label>
+        <input type="color" id="update_bgcolor" name="update_bgcolor">
+        <input type="button" id="update_bgcolor_button" class="button" value="Update Background Color" onclick="updateBgColor()">
+        
+        <!-- Link script.js to html to allow functions to be usable -->
+        <script src="script.js"></script>
+    </form>
+</body>
+</html>
