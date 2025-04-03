@@ -25,6 +25,7 @@ function showNotification(){
     /* set an onclick attribute on the closing button, which will contain a function to remove the notification message*/
     closeButton.onclick = function () {
         container.removeChild(newSection);
+        console.log("A notification was closed")
     };
     
     /* add the notification message and close button on the newly created section*/
