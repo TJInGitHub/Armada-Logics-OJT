@@ -1,0 +1,35 @@
+<!-- Modified copy of my To do List activity -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container for the header and main content -->
+    <div class="container">
+        <header>
+            <h1>My To-Do List</h1>
+        </header>
+
+        <!-- Main content which include the form for adding task and the unordered list to contain the task added -->
+        <main>
+            <form>
+                <input type="text" id="task_name" name="task_name" placeholder="Enter your task here...">
+                <input type="submit" id="submit" name="submit" value="Add task" onclick="addTask(event)"> 
+                <!--onclick event addTask() function which contains a parameter called event, which value will be the onclick event itself -->
+            </form>
+
+            <!-- Unordered List to contain the task added -->
+            <ul>
+                
+            </ul>
+        </main>
+    </div>
+
+    <!-- Link script.js to html to allow functions to be usable -->
+    <script src="script.js"></script>
+</body>
+</html>

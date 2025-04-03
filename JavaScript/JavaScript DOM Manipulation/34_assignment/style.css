@@ -1,0 +1,116 @@
+/* resets default margins and paddings */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* styling for body */
+body {
+    margin-top: 95px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+/* display flex in column direction the following */
+body, .container, main, ul {
+    display: flex;
+    flex-direction: column;
+}
+
+/* div container styling */
+.container {
+    padding: 2em;
+    background-color: white;
+}
+
+/* border stylings for the following */
+.container, ul li, #task_name {
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+
+/* add border radius to the following */
+.container, header {
+    border-radius: 10px;
+}
+
+/* header styling */
+header {
+    width: 400px;
+    padding: 1em;
+}
+
+/* set background and text color of the following */
+header, #submit {
+    background-color: #0178d4;
+    color: white;
+}
+
+/* set a font size to the following */
+header, #submit {
+    font-size: 15px;
+}
+
+/* set a gap to the following */
+.container, main, ul {
+    gap: 20px;
+}
+
+/* styling for the unordered list elements (the task added) */
+ul li {
+    background-color: #dbeef4;
+    list-style: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/* add padding for the following */
+ul li, #task_name, #submit {
+    padding: 15px;
+}
+
+/* input type text task_name styling */
+#task_name {
+    width: 300px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+/* input type submit styling */
+#submit {
+    width: 100px;
+    margin: -5px;
+    border-style: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* input type submit styling when hovered*/
+#submit:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+/* added task in p tag styling */
+p {
+    font-size: 15px;
+}
+
+/* remove button for added task styling */
+button {
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    padding: 0.5rem;
+    font-size: 15px;
+}
+
+/* remove button for added task styling when hovered */
+button:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
