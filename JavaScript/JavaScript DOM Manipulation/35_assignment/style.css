@@ -1,0 +1,89 @@
+/* resets default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* styling for div container */
+body {
+    margin: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2%;
+}
+
+/* styling for profile card section */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 5%;
+    padding: 5% 0% 8% 0%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+
+    /* styling for image */
+    img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+    }
+}
+
+
+
+/* styling for profile card editor form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 90%;
+
+    /* styling for all labels */
+    label {
+        font-weight: bold;
+    } 
+
+    /* styling for all inputs */
+    input {
+        border: 1px solid darkgray;
+        border-radius: 3px;
+        padding: 1% 2% 1% 2%;
+    }
+    
+    /* styling for all inputs when hovered */
+    input:hover {
+        border: 1px solid black;
+    }
+
+    /* styling for button to update profile card */
+    button {
+        border: 1px solid black; 
+        border-radius: 3px;
+        padding: 1% 2% 1% 2%;
+        margin-top: 1rem;
+        width: 40%;
+    }
+
+    /* styling for button to update profile card when hovered */
+    button:hover {
+        cursor: pointer;
+    }
+}
+
+/* styling for update background color input */
+input#update_bgcolor {
+    width: 100%; 
+}
+
+/* styling for update background color input when hovered */
+input#update_bgcolor:hover {
+    cursor: pointer; 
+}
