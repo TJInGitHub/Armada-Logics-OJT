@@ -13,7 +13,7 @@ document.querySelectorAll(".color-box").forEach(button => {
         var getStyle = window.getComputedStyle(this);
         /* get the computed styling specifically for background color, to be used to change the container background */
         var backgroundColor = getStyle.backgroundColor;
-        /* use the o */
+        /* use the obtained backgroundColor for the color of container */
         document.getElementById("container").style.backgroundColor = backgroundColor;
         alert("You clicked the " + this.textContent + " button!");
     });
