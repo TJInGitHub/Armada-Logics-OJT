@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Revisit Bank Account Manager </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header container that contains the Bank Account Manager header -->
+    <header>
+        <h1 id="header">Bank Account Manager</h1>
+    </header>
+
+    <!-- Main container to contain the current balance contaiiner and form for withdrawing and depositing an amount  -->
+    <main>
+        <!-- div container that serves as the current balance container -->
+        <div id="current_balance_container">
+            <h3>Current Balance:</h3>
+            <p id="current_balance">$1000</p>
+        </div>
+
+        <!-- form for inputting an amount and choosing whether to deposit it or withdraw it -->
+        <form>
+            <input type="number" id="amount" placeholder="Enter amount">
+
+            <!-- button container using ul -->
+            <ul>
+                <li><button id="deposit">Deposit</button></li>
+                <li><button id="withdraw">Withdraw</button></li>
+            </ul>
+        </form>
+    </main>
+   
+    <!-- Link script.js to html to allow functions to be usable -->
+    <script src="script.js"></script>
+</body>
+</html>
