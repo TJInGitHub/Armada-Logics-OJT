@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    background-color: #111111;
+    padding: 5%;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+}
+
+button {
+    padding: 0.25rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
