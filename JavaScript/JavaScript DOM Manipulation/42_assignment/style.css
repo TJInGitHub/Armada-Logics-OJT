@@ -32,6 +32,10 @@ body {
     width: 27%;
 }
 
+.servant_card:hover {
+    cursor: pointer;
+}
+
 #summoned_servant {
     display: flex;
     flex-direction: column;

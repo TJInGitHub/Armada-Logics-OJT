@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+h3 {
+    margin-top: 0.5rem;
+}
+
+img {
+    width: 7%;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.25rem;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.25rem;
+    font-weight: bold;
+}
