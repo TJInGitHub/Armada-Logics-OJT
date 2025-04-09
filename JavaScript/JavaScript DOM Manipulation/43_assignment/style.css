@@ -12,6 +12,25 @@ body {
     justify-content: center;
 }
 
+#character_helmet {
+    position: relative;
+    top: 1.25rem;
+}
+
+#character_armor {
+    position: relative;
+}
+
+#character_leggings {
+    position: relative;
+    bottom: 0.55rem;
+}
+
+#character_boots {
+    position: relative;
+    bottom: 1.4rem;
+}
+
 section {
     display: flex;
     align-items: center;
@@ -27,6 +46,10 @@ img {
     width: 7%;
 }
 
+.helmets:hover, .armors:hover, .leggings:hover, .boots:hover {
+    cursor: pointer;
+}
+
 button {
     margin-top: 1rem;
     padding: 0.25rem;
@@ -34,6 +57,12 @@ button {
 }
 
 button {
+    margin-top: 1rem;
+    padding: 0.25rem;
+    font-weight: bold;
+}
+
+button:hover {
     margin-top: 1rem;
     padding: 0.25rem;
     font-weight: bold;
