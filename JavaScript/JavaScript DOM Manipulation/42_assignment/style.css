@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    color: white;
+    background-color: black;
+}
+
+#servant_cards {
+    display: flex;
+    flex-direction: column;
+    background-image: url(resources/summoning_circle.jpg);
+    background-size: 100% 40rem;
+    width: 70%;
+    margin-right: 5rem;
+    background-repeat: no-repeat;
+    border-right: 1px white solid;
+}
+
+.card_set {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 0 0.5rem 0;
+    margin-left: 13.5rem;
+    width: 50%;
+}
+
+.servant_card {
+    width: 27%;
+}
+
+#summoned_servant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-right: 2.5rem;
+}
+
+#servant_name {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+#servant_image {
+    width: 250px;
+}
