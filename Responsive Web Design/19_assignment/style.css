@@ -1,0 +1,708 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, header nav, input#log_in {
+	background-color: white;
+}
+
+header nav, aside nav, aside nav a, main, div#advertising_api_container {
+	display: flex;
+}
+
+header nav, aside nav, div#advertising_api_container {
+	flex-direction: row;
+}
+
+header nav, aside nav a{ 
+	align-items: center;
+}
+
+header nav, aside nav {
+	position: fixed;
+}
+
+header nav, div#advertising_api_container section {
+	width: 100%;
+}
+
+header nav {
+    padding: 10px 70px 10px 50px;
+    top: 0;
+    border-top: 3px #E7700D solid;
+    border-bottom: 1px #D2D6DA solid;
+}
+
+header nav a {
+    color: #81888F;
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    gap: 5px
+}
+
+header nav form input, section input {
+	border-radius: 5px;
+}
+
+header nav form input {
+    padding: 8px;
+    margin-right: 1px;
+}
+
+input#search {
+    margin: 0px 5px 0px 20px;
+    width: 575px;
+    padding: 8px 25px 8px 25px;
+    border: 1px #C4C8CD solid;
+}
+
+input#log_in {
+    border: 1px #1B75D0 solid;
+    color: #1B75D0;
+}
+
+input#sign_up, section input {
+	background-color: #1B75D0;
+}
+
+input#sign_up, section input, section#overflowai p, span#text_with_background {
+	color: white;
+}
+
+input#sign_up, section input {
+    border-style: none;
+}
+
+a img, section img {
+    width: 150px;
+}
+
+aside nav, main {
+	flex-direction: column;
+}
+
+aside nav, div#advertising_api_container {
+	gap: 15px;
+}
+
+aside nav {
+    top: 58px;
+    width: 20%;
+    padding-top: 40px;
+}
+
+aside nav a, aside nav p {
+	padding: 0px 50px 0px 70px;
+}
+
+aside nav a {
+    gap: 5px;
+    width: 132px;
+    color: #3B4045;
+}
+
+aside nav a img {
+    width: 20px;
+}
+
+aside nav p, span#bold_text {
+	font-weight: bold;
+}
+
+aside nav p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+main {
+    width: 74%;
+    margin: 50px 0px 55px 20%;
+    gap: 20px;
+}
+
+section {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px #EAECED solid;
+    
+}
+
+section p {
+    margin: 15px 0px 15px 0px;
+}
+
+section input {
+    padding: 8px 13px 8px 13px;
+    margin-right: 20px;
+}
+
+section input#sign_up2 {
+    padding: 11px;
+}
+
+section#description, section#stackoverflow_for_teams, section#overflowai, section#careers {
+    position: relative;
+    z-index: -1;
+}
+
+section#description a, section#stackoverflow_for_teams a, section#overflowai a, section#careers a{
+    position: static;
+}
+
+img.accompanying_image {
+    position: absolute;
+}
+
+section#description {
+    padding: 75px 50px 50px 50px;
+    background-color: #F9FAFA;
+}
+
+section#description p{
+    width: 463px;
+    color: #3B4C6A;
+}
+
+section#description img {
+    top: 104px;
+    right: 38px;
+    width: 385px;
+}
+
+section#stackoverflow_for_teams p {
+    width: 410px;
+}
+
+section#stackoverflow_for_teams img.accompanying_image, section#overflowai img.accompanying_image {
+	border-radius: 0px 0px 10px;
+}
+
+section#stackoverflow_for_teams img.accompanying_image, section#overflowai img.accompanying_image, section#careers img.accompanying_image {
+    right: 0;
+}
+
+section#stackoverflow_for_teams img.accompanying_image {
+    top: 25px;
+    width: 406px;
+}
+
+section#overflowai {
+    background-color: #3B4045;
+}
+
+section#overflowai img.accompanying_image {
+    top: 41px;
+    width: 380px;
+}
+
+section#overflowai p{
+    width: 510px;
+}
+
+section#stackoverflow_advertising {
+    padding-top: 0px; 
+}
+
+section#stackoverflow_advertising p{
+    margin: 0px 0px 31px;
+}
+
+section#overflowapi {
+    padding-top: 11px; 
+}
+
+section#overflowapi img{
+    width: 185px; 
+}
+
+section#careers p {
+    width: 370px;
+}
+
+section#careers img.accompanying_image {
+    bottom: 0;
+    width: 470px;
+}
+
+h1 {
+    font-size: 30px;
+    width: 400px;
+}
+
+h3, p {
+    font-size: 15px;
+}
+
+h3 {
+    margin: 15px 0px 5px 0px;
+    font-weight: lighter;
+    color: #776D69;
+}
+
+img {
+    width: 10px;
+}
+
+span#text_with_background {
+    background-image: url(images/background-image.png);
+    background-size: 100%;
+    padding: 2px 15px 0px 15px;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color:#207BD1;
+}
+
+/* Responsive Design Application */
+
+/* Phone screens */
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    p, a, input, span#bold_text {
+        font-size: 1rem;
+    }
+
+    #about_link, #overflowai_link, #work_here, #careers {
+        display: none;
+    }
+
+    header nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.3125rem 0.5rem;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    a#stackoverflow_logo {
+        margin-left: 0.5rem;
+    }
+
+    a img {
+        width: 7.5rem;
+    }
+
+    form {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        flex: 1;
+        margin-right: 1rem;
+        justify-content: flex-end;
+    }
+
+    input#search {
+        width: 100%;
+        min-width: 7.5rem;
+        font-size: 1rem;
+    }
+
+    input#log_in,
+    input#sign_up {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+        
+    }
+
+    aside nav {
+        top: 2.875rem;
+        padding-top: 1.5rem;
+        width: 9.5rem;
+        overflow-x: auto;
+    }
+
+    aside nav a {
+        padding-left: 0.625rem;
+        font-size: 1rem;
+    }
+
+    aside nav p {
+        padding-left: 0.625rem;
+        font-size: 1rem;
+    }
+
+    aside nav a img {
+        width: 1.25rem;
+    }
+
+    main {
+        width: 33rem;
+        margin: 1.25rem 0 1.71875rem 10.3rem;
+    }
+
+    section#description,
+    section#stackoverflow_for_teams,
+    section#overflowai,
+    section#careers {
+        position: static;
+        width: 90.4%;
+    }
+
+    section#description {
+        width: 80.8%;
+    }
+
+    img.accompanying_image {
+        position: static;
+    }
+
+    section#description,
+    section#stackoverflow_for_teams,
+    section#overflowai {
+        padding-bottom: 0;
+    }
+
+    section#description img {
+        margin-top: 4rem;
+        width: 28.5rem;
+    }
+
+    section#stackoverflow_for_teams img {
+        width: 7.5rem;
+    }
+
+    section#stackoverflow_for_teams img.accompanying_image {
+        margin-top: 2rem;
+        width: 31.4rem;
+    }
+
+    section#overflowai img {
+        width: 7.5rem;
+    }
+
+    section#overflowai img.accompanying_image {
+        margin-top: 2rem;
+        width: 31.3rem;
+    }
+
+    div#advertising_api_container {
+        flex-direction: column;
+    }
+
+    div#advertising_api_container section {
+        width: 90.3%;
+
+        img {
+            width: 7.5rem;
+        }
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+}
+
+/* Tablet Screens */
+@media (min-width: 481px) and (max-width: 1023px) {
+    body {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    p, a, input, span#bold_text {
+        font-size: 1.25rem;
+    }
+
+    #about_link, #overflowai_link, #work_here, #careers {
+        display: none;
+    }
+
+    header nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.650rem 0.5rem;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    a#stackoverflow_logo {
+        margin-left: 0.1rem;
+    }
+
+    a img {
+        width: 8.75rem;
+    }
+
+    form {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        flex: 1;
+        margin-right: 1rem;
+        justify-content: flex-end;
+    }
+
+    input#search {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    input#log_in,
+    input#sign_up {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    aside nav {
+        top: 5.5rem;
+        padding-top: 0rem;
+        width: 11rem;
+        overflow-x: auto;
+    }
+
+    aside nav a {
+        padding-left: 0.625rem;
+        font-size: 1rem;
+    }
+
+    aside nav p {
+        padding-left: 0.625rem;
+        font-size: 1rem;
+    }
+
+    aside nav a img {
+        width: 1.25rem;
+    }
+
+    main {
+        width: 52.4rem;
+        margin: 1.25rem 0 1.71875rem 11rem;
+    }
+
+    section#description,
+    section#stackoverflow_for_teams,
+    section#overflowai,
+    section#careers {
+        position: static;
+        width: 88.5%;
+    }
+
+    section#description {
+        width: 80.9%;
+        padding: 6rem 5rem 0 5rem;
+
+        h1 {
+            width: 90%;
+        }
+
+        p {
+            width: 90%;
+        }
+    }
+
+    img.accompanying_image {
+        position: static;
+    }
+
+    section#stackoverflow_for_teams,
+    section#overflowai,
+    div#advertising_api_container section {
+        padding: 3rem 3rem 3rem 3rem;
+    }
+
+    section#description, 
+    section#stackoverflow_for_teams,
+    section#overflowai {
+        padding-bottom: 0;
+    }
+
+    section#description img {
+        margin-top: 4rem;
+        width: 42.5rem;
+    }
+
+    section#stackoverflow_for_teams {
+        p {
+            width: 90%
+        }
+
+        img {
+            width: 8.75rem;
+        }
+    }
+
+    section#stackoverflow_for_teams img.accompanying_image {
+        margin-top: 2rem;
+        width: 49.4rem;
+    }
+
+    section#overflowai {
+        p {
+            width: 90%;
+        }
+
+        img {
+            width: 8.75rem;
+        }
+    }
+
+    section#overflowai img.accompanying_image {
+        margin-top: 2rem;
+        width: 49.3rem;
+    }
+
+    div#advertising_api_container {
+        flex-direction: column;
+    }
+
+    div#advertising_api_container section {
+        width: 88.5%;
+
+        img {
+            width: 8.75rem;
+        }
+    }
+
+    section#overflowapi p {
+        width: 81%;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.375rem;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    span {
+        font-size: 2.5rem;
+    }
+}
+
+/* Desktop Screens */
+@media (min-width: 1024px) {
+    p, a, input, span#bold_text {
+        font-size: 1rem;
+    }
+
+    header nav {
+        justify-content: space-between;
+        padding: 0.75rem 4.5rem;
+        gap: 1rem;
+    }
+
+    a img {
+        width: 9.375rem;
+    }
+
+    form {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.625rem;
+        justify-content: flex-end;
+    }
+
+    input#search {
+        width: 36rem;
+        font-size: 1rem;
+    }
+
+    input#log_in,
+    input#sign_up {
+        font-size: 1rem;
+        padding: 0.5rem 1.25rem;
+    }
+
+    aside nav {
+        top: 3.625rem;
+        padding-top: 2rem;
+        width: 20%;
+        overflow: hidden;
+    }
+
+    aside nav a,
+    aside nav p {
+        padding-left: 4.5rem;
+        font-size: 0.875rem;
+    }
+
+    aside nav a img {
+        width: 1.25rem;
+    }
+
+    main {
+        width: 74%;
+        margin: 3.125rem 0 3.4375rem 20%;
+    }
+
+    section#description,
+    section#stackoverflow_for_teams,
+    section#overflowai,
+    section#careers {
+        width: 90%;
+        padding: 3rem 3rem;
+        position: relative;
+    }
+
+    section#description img {
+        top: 6.5rem;
+        right: 2.5rem;
+        width: 24rem;
+    }
+
+    section#stackoverflow_for_teams img.accompanying_image {
+        top: 1.5rem;
+        width: 25rem;
+    }
+
+    section#overflowai img.accompanying_image {
+        top: 2.5rem;
+        width: 24rem;
+    }
+
+    section#careers img.accompanying_image {
+        bottom: 0;
+        width: 29.375rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        width: 25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+
+    div#advertising_api_container {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    div#advertising_api_container section {
+        width: 50%;
+    }
+}
