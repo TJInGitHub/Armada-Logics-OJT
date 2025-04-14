@@ -605,7 +605,7 @@ a {
     }
 
     header nav {
-        justify-content: space-between;
+        width: 100%;
         padding: 0.75rem 4.5rem;
         gap: 1rem;
     }
@@ -615,6 +615,7 @@ a {
     }
 
     form {
+        width: 51%;
         flex-direction: row;
         align-items: center;
         gap: 0.625rem;
@@ -622,7 +623,7 @@ a {
     }
 
     input#search {
-        width: 36rem;
+        width: 26rem;
         font-size: 1rem;
     }
 
